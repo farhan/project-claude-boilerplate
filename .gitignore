@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+
+# Build output
+dist/
+build/
+*.egg-info/
+
+# Secrets
+.env
+.env.*
+.claude/.credentials.json
+
+# Agent artifacts
+.claude/agent-memory/
+.claude/worktrees/
+.claude-history/
+
+# Task plans (toggle: uncomment to stop versioning execution scaffolding)
+# docs/superpowers/plans/*.md
+# !docs/superpowers/plans/README.md
+
+# OS
+.DS_Store
